@@ -1,7 +1,7 @@
 
 import { getAuth } from '@clerk/nextjs/server';
 import { authSeller } from '@/middleware/authSeller';
-import prisma from "@lib/prisma";
+import prisma from "@/lib/prisma";
 
 export async function GET(request) {
     try{
